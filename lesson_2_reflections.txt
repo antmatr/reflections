@@ -33,3 +33,9 @@ How do the diagrams help you visualize the branch structure?
 
 Diagrams not only show all branches we have,
 diagrams allow us to see relations between branches and commits within them.
+
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+Merge creates a new commit that have two parents commits in two different branches.
