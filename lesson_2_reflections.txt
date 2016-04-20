@@ -11,3 +11,11 @@ What value do you think it offers?
 
 Staging area is like buffer between working area and repository.
 It allows you to combine some of changes you've made into logical units to be committed separately.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You put selected files to the staging area
+and in this isolated view you can clearly see if they logically relate to each other or not.
+Unfortunately, it seems like staging area by itself can't help you with this
+if you've made few logically separated fixes in a single file.
