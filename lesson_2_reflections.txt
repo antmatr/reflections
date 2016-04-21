@@ -1,9 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 On initialization Git creates hidden directory to store information about repository, commits etc.
-Git create a kind of its own infrastructure environment for further work.
+Git creates a kind of its own infrastructure environment for further work.
 It is needed because without it there will be no any specific information,
-that allows Git to recognize repository.
+that allows to Git to recognize repository.
 
 
 How is the staging area different from the working directory and the repository?
@@ -38,14 +38,14 @@ diagrams allow us to see relations between branches and commits within them.
 What is the result of merging two branches together?
 Why do we represent it in the diagram the way we do?
 
-Merge creates a new commit that have two parents commits in two different branches.
+Merge creates a new commit that has two parents commits in two different branches.
 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
 In a lot of cases Git can automatically resolve conflicts absolutely safe,
 so you don't need to waste your time with checking all manually.
-And only if Git have a conflict he can't resolve, you have to fix it manually.
+And only if Git has a conflict that it can't resolve automatically, you have to fix it manually.
 But if you checking every merge manually you will do the same work in addition
 to a lot of work which can be easily done by Git.
 So there are no reason to waste time.
