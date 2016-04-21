@@ -19,3 +19,14 @@ Forks are kind of clones but only within GitHub and with a link to an original p
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It allows you to work with the remote offline.
+
+
+How would you collaborate without using Git or GitHub?
+What would be easier, and what would be harder?
+
+If there would be neither Git nor GitHub, I would like to use some services
+like DropBox or just a shared folders in a local network.
+And I think all collaboration process would be not harder or even easier,
+but only if we are talking about really small teams and projects.
+In other case (a larger project, or more than 1-2 people in team)
+development process turns into mess and chaos.
