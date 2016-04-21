@@ -30,3 +30,13 @@ And I think all collaboration process would be not harder or even easier,
 but only if we are talking about really small teams and projects.
 In other case (a larger project, or more than 1-2 people in team)
 development process turns into mess and chaos.
+
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+I would like to use a separate branch for a new features
+that are not in too close relations with a main product features
+(so there will be no need to merge master branch too often).
+It is easier to resolve conflicts within one single master branch rather than into 2+ branches,
+but branches allow to isolate some unstable versions or experimental features.
