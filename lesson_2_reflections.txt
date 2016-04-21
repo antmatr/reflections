@@ -39,3 +39,13 @@ What is the result of merging two branches together?
 Why do we represent it in the diagram the way we do?
 
 Merge creates a new commit that have two parents commits in two different branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+In a lot of cases Git can automatically resolve conflicts absolutely safe,
+so you don't need to waste your time with checking all manually.
+And only if Git have a conflict he can't resolve, you have to fix it manually.
+But if you checking every merge manually you will do the same work in addition
+to a lot of work which can be easily done by Git.
+So there are no reason to waste time.
